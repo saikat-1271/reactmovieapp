@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #282c34;
+}
+.banner-text{
+  overflow:hidden;
+  position: absolute;
+  bottom: 0;
+  font-weight: bolder;
+  color: white;
+  
+}
+
+.cardbgm{
+  background-color: #353b46;
+  color: white;
+}
+.banner-title{
+   position:absolute;
+   color: white;
+   font-size: large;
+   font-weight: bolder;
+   overflow-wrap: break-word;
+   justify-content: flex-end;
+}
+
+@media screen and (max-width:400px) {
+
+  .banner-title{
+    height: 30vh;
+  }
+  .banner-text{
+    height: 30vh;
+  }
+  
+}
+
+
+.boxdesign{
+  display: flex;
+  width: 20rem;
+  height: 15rem;
+  justify-content:flex-end;
+}
+
+.page{ 
+  display: flex; 
+  justify-content: center;
+}
+
+.nbar{
+  text-decoration: none;
+}
+
+.fav-movie-list{
+ 
+  height: 100px;
+  width:100px
+}
